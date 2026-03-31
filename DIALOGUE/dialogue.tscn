@@ -1,0 +1,74 @@
+[gd_scene load_steps=6 format=3 uid="uid://oyya4j6varn4"]
+
+[ext_resource type="Script" uid="uid://d2of28px1je10" path="res://DIALOGUE/dialogue.player.gd" id="1_dwai7"]
+[ext_resource type="Texture2D" uid="uid://iynohalwjq0v" path="res://ASSETS/DIALOGUE ASSETS/book dialoguetest.png" id="2_dwai7"]
+[ext_resource type="FontFile" uid="uid://iivexpqub7uj" path="res://ASSETS/FineFantasy.ttf" id="4_fine"]
+[ext_resource type="Shader" uid="uid://dr847klvuejvf" path="res://DIALOGUE/portrait_outline.gdshader" id="5_outline"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1"]
+shader = ExtResource("5_outline")
+shader_parameter/outline_color = Color(0.38, 0.22, 0.07, 1)
+shader_parameter/outline_left = 1.0
+shader_parameter/outline_right = 1.0
+shader_parameter/outline_top_bottom = 1.0
+
+[node name="DIALOGUE" type="CanvasLayer" groups=["dialogue"]]
+script = ExtResource("1_dwai7")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.32
+offset_left = 40.0
+offset_top = 30.0
+offset_right = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_dwai7")
+region_rect = Rect2(0, 0, 384, 360)
+patch_margin_left = 88
+patch_margin_top = 88
+patch_margin_right = 88
+patch_margin_bottom = 88
+axis_stretch_horizontal = 1
+
+[node name="NameLabel" type="Label" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 566.00006
+offset_top = 75.0
+offset_right = 3168.0
+offset_bottom = 210.0
+scale = Vector2(1.25, 1.25)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_fine")
+theme_override_font_sizes/font_size = 108
+text = "TEST"
+
+[node name="TextLabel" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 566.0
+offset_top = 207.0
+offset_right = -138.0
+offset_bottom = -83.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("4_fine")
+theme_override_fonts/bold_font = ExtResource("4_fine")
+theme_override_font_sizes/normal_font_size = 84
+theme_override_font_sizes/bold_font_size = 75
+bbcode_enabled = true
+text = "TEST"
+scroll_active = false
+
+[node name="Portrait" type="TextureRect" parent="."]
+visible = false
+material = SubResource("ShaderMaterial_1")
+offset_left = 103.0
+offset_top = 7.0
+offset_right = 604.0
+offset_bottom = 683.0
+stretch_mode = 5

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c3iqrr6t188yr"
+path="res://.godot/imported/ADS OST-PauseTheme(final).wav-3950f4cf4ee7e4d635abc66ed926aa7a.sample"
+
+[deps]
+
+source_file="res://DIALOGUE/ADS OST-PauseTheme(final).wav"
+dest_files=["res://.godot/imported/ADS OST-PauseTheme(final).wav-3950f4cf4ee7e4d635abc66ed926aa7a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,9 @@
+[
+	{"NAME": "Assistant", "TEXT": "Hello, user!"},
+	{"NAME": "Assistant", "TEXT": "Press [img=105x118]res://ASSETS/Controller interface/Controller-YButton.png.png[/img] to load your identification."},
+	{"NAME": "Assistant", "TEXT": "Loading..."},
+	{"NAME": "Assistant", "TEXT": "Oh, Nox! You're finally here!"},
+	{"NAME": "Assistant", "TEXT": "It's been ___ since I've seen you. I've been holding onto your journal for what feels like forever!\nPressing [OPTIONS] lets you access it."},
+	{"NAME": "Assistant", "TEXT": "My connection to the capital is currently... unavailable."},
+	{"NAME": "Assistant", "TEXT": "I've fixed the teleport stone nearby so _________________________________________ ____________________________________________________________________________________________________________________________________________________________________________________________________________________"}
+]
