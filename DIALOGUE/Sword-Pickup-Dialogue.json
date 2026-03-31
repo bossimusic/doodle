@@ -1,0 +1,15 @@
+[
+	{"NAME": "Nox", "TEXT": "... I died?"},
+	{"NAME": "Nox", "TEXT": "Well... It's nice to meet ya! I don't, I can't, who are..."},
+	{"NAME": "Nox", "TEXT": "........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................"},
+	{"NAME": "Nox", "TEXT": "Sorry about that! Here, let me give you the crash course the old man taught me."},
+	{"NAME": "Nox", "TEXT": "Uh, to transform, press [img=105x118]res://ASSETS/Controller interface/Controller-DPAD-DOWN.png[/img] to turn into me and [img=105x118]res://ASSETS/Controller interface/Controller-DPAD-LEFT.png[/img] [img=105x118]res://ASSETS/Controller interface/Controller-DPAD-RIGHT.png[/img] for the next transformation you find! And [img=105x118]res://ASSETS/Controller interface/Controller-DPAD-UP.png[/img] brings you back to normal."},
+	{"NAME": "Nox", "TEXT": "And, if you hit a wall while falling, lean into it [img=105x118]res://ASSETS/Controller interface/Controller-Joystick-static.png[/img] to slow yourself down, jump again to kick off."},
+	{"NAME": "Nox", "TEXT": "Wow, that was long, guess the old man rubbed off on me!"},
+	{"NAME": "Nox", "TEXT": "..."},
+	{"NAME": "Nox", "TEXT": "Oh, and if you don't want to listen to people, feel free to press [img=105x118]res://ASSETS/Controller interface/Controller-BButton.png.png[/img] to skip!"},
+	{"NAME": "Nox", "TEXT": "Anyways, if you're looking for answers, you should check in with Assistant."},
+	{"NAME": "Nox", "TEXT": "He's part of the guild's way of keeping contact, even in the most remote places."},
+	{"NAME": "Nox", "TEXT": "There should be robots like him scattered all over the world."},
+	{"NAME": "Nox", "TEXT": "If anyone still knows what's going on, it'll be them."}
+]
